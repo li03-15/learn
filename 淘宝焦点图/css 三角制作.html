@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 三角制作</title>
+    <style>
+        .box1 {
+            width: 0;
+            height: 0;
+            border-top: 10px solid pink;
+            border-right: 10px solid blue;
+            border-bottom: 10px solid red;
+            border-left: 10px solid orange;
+        }
+
+        .box2 {
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-top-color: #000;
+            /* 三角形的大小由边框的粗细决定  */
+            margin: 100px auto;
+        }
+
+        .jd {
+            position: relative;
+            width: 120px;
+            height: 249px;
+            background-color: aqua;
+        }
+
+        .jd span {
+            position: absolute;
+            width: 0;
+            height: 0;
+            /* 为了照顾兼容性 */
+            font-size: 0;
+            line-height: 0;
+            border: 5px solid transparent;
+            border-bottom-color: #000;
+            right: 15px;
+            top: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="jd"><span></span></div>
+</body>
+
+</html>
