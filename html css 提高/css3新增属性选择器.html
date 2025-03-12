@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input[value] {
+            color: aqua;
+        } */
+        input[type=text] {
+            color: brown;
+        }
+
+        /* 选怎是div 属性是class 以icon开头的元素 */
+        /* div[class^=icon] {
+            color: orange;
+        } */
+
+        /* section[class$=data] {
+            color: blueviolet; */
+        /* } */
+        /* div里面只要含有icon就执行 */
+        div[class*=icon] {
+            color: blue;
+        }
+
+        /* 类选择器  属性选择器  伪类选择器的权重都是10 */
+    </style>
+</head>
+
+<body>
+    <!-- 利用属性选择器就可以不用类选择器或者id -->
+    <!-- <input type="text" name="" id="" value="请输入用户名">
+    <input type="text" name="" id=""> -->
+    <!-- 属性选择器还可以选择属性等于值的某些元素 -->
+    <!-- <input type="text" name="" id="">
+    <input type="password" name="" id=""> -->
+    <!-- 属性选择器还可以选择以某些属性值开头的元素 -->
+    <div class="icon1">小图标</div>
+    <div class="icon2">小图标2</div>
+    <div class="icon3">小图标3</div>
+    <div class="icon4">小图标4</div>
+    <!-- 属性选择器还可以选择以某些属性值结尾的元素 -->
+    <section class="icon1-data">我是安其拉</section>
+    <section class="icon2-data">我是哥斯拉</section>
+    <div class="icon-ico">我啥也不是</div>
+</body>
+
+</html>

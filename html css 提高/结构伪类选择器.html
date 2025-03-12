@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child {
+            background-color: red;
+        }
+
+        /* 最后一个元素 */
+        ul li:last-child {
+            background-color: aqua;
+        }
+
+        /* 匹配第n个元素 */
+        ul li:nth-child(6) {
+            background-color: red;
+        }
+
+        /* 把所有偶数的元素选出来  偶数是even  奇数是odd  */
+        ul li:nth-child(even) {
+            background-color: orange;
+        }
+
+        /* 相当于选择了所有的孩子 */
+        ol li:nth-child(n) {
+            background-color: orange;
+        }
+
+        section div:nth-of-type(1) {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>我是第1个孩子</li>
+        <li>我是第2个孩子</li>
+        <li>我是第3个孩子</li>
+        <li>我是第4个孩子</li>
+        <li>我是第5个孩子</li>
+        <li>我是第6个孩子</li>
+        <li>我是第7个孩子</li>
+        <li>我是第8个孩子</li>
+        <li>我是第9个孩子</li>
+        <li>我是第10个孩子</li>
+    </ul>
+    <ol>
+        <li>我是第1个孩子</li>
+        <li>我是第2个孩子</li>
+        <li>我是第3个孩子</li>
+        <li>我是第4个孩子</li>
+        <li>我是第5个孩子</li>
+        <li>我是第6个孩子</li>
+        <li>我是第7个孩子</li>
+        <li>我是第8个孩子</li>
+        <li>我是第9个孩子</li>
+        <li>我是第10个孩子</li>
+    </ol>
+    <!-- nth-of-type选择器 -->
+    <section>
+        <p>光头强</p>
+        <div>熊大</div>
+        <div>熊二</div>
+    </section>
+</body>
+
+</html>

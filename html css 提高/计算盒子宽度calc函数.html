@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 300px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .son {
+            width: calc(100% - 30px);
+            /* 减号两侧都要留空格 */
+            height: 20px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 需求子盒子永远比父盒子小三十px -->
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+
+</html>

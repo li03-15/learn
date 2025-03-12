@@ -18,7 +18,8 @@
             height: 100%;
         }
 
-        .mask {
+        .tudo::before {
+            content: '';
             display: none;
             position: absolute;
             top: 0;
@@ -28,9 +29,8 @@
             background: rgba(0, 0, 0, .3)url(images/arr.png)no-repeat center;
         }
 
-        .tudo:hover .mask {
+        .tudo:hover::before {
             display: block;
-
         }
     </style>
 </head>
@@ -38,7 +38,6 @@
 <body>
     <div class="tudo">
         <img src="images/tudou.jpg" alt="">
-        <div class="mask"></div>
     </div>
 </body>
 
