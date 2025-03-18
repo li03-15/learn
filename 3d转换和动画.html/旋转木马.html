@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            perspective: 1000px;
+        }
+
+        section {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            margin: 300px auto;
+            transform-style: preserve-3d;
+            /* 添加动画效果 */
+            animation: rotate 10s linear infinite;
+        }
+
+        /* 鼠标放到section盒子上停止旋转 */
+        section:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes rotate {
+            0% {}
+
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        section div {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+
+        section div img {
+            width: 300px;
+            height: 200px;
+        }
+
+        section div:nth-child(1) {
+            transform: translateZ(300px);
+        }
+
+        section div:nth-child(2) {
+            /* 先旋转在移动 */
+            transform: rotateY(60deg) translateZ(300px);
+        }
+
+        section div:nth-child(3) {
+            /* 先旋转在移动 */
+            transform: rotateY(120deg) translateZ(300px);
+        }
+
+        section div:nth-child(4) {
+            /* 先旋转在移动 */
+            transform: rotateY(180deg) translateZ(300px);
+        }
+
+        section div:nth-child(5) {
+            /* 先旋转在移动 */
+            transform: rotateY(240deg) translateZ(300px);
+        }
+
+        section div:nth-child(6) {
+            /* 先旋转在移动 */
+            transform: rotateY(300deg) translateZ(300px);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div><img src="media/e4a059206dd6286e11eea6dadfa896d9~480x480.gif" alt=""></div>
+        <div><img src="media/bird.png" alt=""></div>
+        <div><img src="media/寻找动图.png" alt=""></div>
+        <div><img src="media/water.png" alt=""></div>
+        <div><img src="media/lion.png" alt=""></div>
+        <div><img src="media/car.png" alt=""></div>
+    </section>
+</body>
+
+</html>

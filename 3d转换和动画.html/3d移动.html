@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            perspective: 250px;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* transform: translateZ(100px); */
+            /* translate沿着z轴移动  单位一般是px   正值向外移动  负值向里移动 */
+            /* x和y不能省略 没有就写0 */
+            transform: translate3d(400px, 100px, 100px);
+            /* 要添加透视才能看见效果 透视添加在父盒子上面 */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

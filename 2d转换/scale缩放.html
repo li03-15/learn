@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            margin: 200px auto;
+        }
+
+        div:hover {
+            /* 里面写的数字不跟单位  1就是1倍  2就是2倍 */
+            /* transform: scale(2, 2); */
+            /* 等比缩放我们有简单的写法 */
+            /* transform: scale(2);和上面的效果一样 */
+            /* 缩小就是把数字改成小于1就可以 */
+            transform: scale(0.5);
+            /* scale的优势在于不会影响其他的盒子，而且可以设置缩放的中心点 */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

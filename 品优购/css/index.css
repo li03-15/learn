@@ -1,0 +1,247 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    line-height: 33px;
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 16px;
+}
+
+.news-hd a {
+    float: right;
+    font-size: 14px;
+
+}
+
+.news-hd a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li i {
+    margin-top: 12px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icons.png)no-repeat -15px -15px;
+}
+
+.lifeservice ul li em {
+    position: absolute;
+    top: 0;
+    right: -22px;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+/* 推荐模块开始 */
+.recommend {
+    margin-top: 12px;
+    height: 163px;
+    background-color: #ccc;
+}
+
+.recommend-hd {
+    text-align: center;
+    float: left;
+    width: 205px;
+    height: 163px;
+}
+
+.recommend-hd img {
+    margin-top: 30px;
+}
+
+.recommend-hd p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.recommend-bd {
+    float: left;
+    height: 163px;
+    width: 995px;
+    background-color: #ebebeb;
+}
+
+.recommend-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recommend-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recommend-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+    content: '';
+    font-family: 'icomoon';
+}
+
+/* 家用电器模块 */
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list ul li {
+    float: left;
+}
+
+.tab-list ul li {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box-bd {
+    height: 361px;
+}
+
+.tab-list-item div {
+    float: left;
+}
+
+.col-210 {
+    height: 361px;
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col-210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+}
+
+.col-210 ul {
+    padding: 0 15px;
+}
+
+.col-210 a img {
+    margin: 15px 30px 0;
+}
+
+.col-210 div h2 {
+    margin: 30px 45px 0;
+}
+
+.col-210 div h4 {
+    margin: 10px 70px 0;
+}
+
+.qumian {
+    text-align: center;
+}
+
+.col-210 ul li:nth-child(even) {
+    float: right;
+}
+
+.col-210 ul li:nth-child(odd) {
+    float: left;
+}
+
+.col-329 {
+    width: 329px;
+}
+
+.col-221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col-219 {
+    width: 219px;
+}
+
+.bb {
+    /* a如果包含有宽度的盒子 需要转换为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

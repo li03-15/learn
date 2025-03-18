@@ -1,0 +1,133 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81623;
+}
+
+.header img {
+    padding-top: 18px;
+}
+
+.banner {
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.zhuce-hd {
+    height: 50px;
+    background-color: #ccc;
+}
+
+.zuoto {
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.yoto {
+    float: right;
+    line-height: 50px;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.reg_form {
+    width: 700px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.agree {
+    padding-left: 150px;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.error {
+    color: #c81623;
+}
+
+.error_icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.safe {
+    margin-top: 0;
+    padding-left: 165px;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.hong {
+    background-color: #c81623;
+    color: aliceblue;
+}
+
+.huang {
+    background-color: orange;
+    color: aliceblue;
+}
+
+.lv {
+    background-color: green;
+    color: aliceblue;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 115px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.links a {
+    margin: 0 10px;
+}
