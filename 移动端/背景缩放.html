@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            background: url(pig.jpg) no-repeat;
+            /* background-size: 图片的宽度  图片的高度; */
+            /* 只写一个参数 肯定是宽度 高度省略了  会等比缩放 */
+            /* 里面的单位可以跟% 相对于父盒子来说 */
+            /* 完全覆盖div盒子  可能部分图片显示不全 */
+            /* background-size: cover; */
+            /* 高度和宽度等比例拉伸 高度或者宽度铺满div盒子就不在拉伸了 */
+            /* background-size: contain; */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
