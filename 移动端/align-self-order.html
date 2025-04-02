@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            width: 60%;
+            height: 150px;
+            background-color: aqua;
+            margin: 0 auto;
+        }
+
+        section span {
+            width: 150px;
+            height: 100px;
+            background-color: blue;
+            margin-right: 5px;
+        }
+
+        section div:nth-child(2) {
+            /* 默认是0 -1比零小 所以在前面 */
+            order: -1;
+        }
+
+        section div:nth-child(3) {}
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>11</div>
+        <div>22</div>
+        <div>33</div>
+    </section>
+</body>
+
+</html>
