@@ -1,0 +1,22 @@
+@border: 5px + 5;
+
+@basefont: 50px;
+
+html {
+    font-size: @basefont;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: @border solid red;
+}
+
+img {
+    width: 82 / @basefont;
+    height: 82 / @basefont;
+}
+
+// 运算符左右两侧必须有空格
+// 两个数参与运算 如果只有一个数有单位 则最后的结果就以这个单位为准
+// 两个数参与运算,如果两个数都有单位 而且不一样  以第一个单位为准

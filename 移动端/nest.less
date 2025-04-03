@@ -1,0 +1,25 @@
+.header {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+    // less嵌套 子元素的嵌套 直接写到父元素里面
+    a {
+        color: red;
+
+        // 如果有伪类 伪元素选择器 前面需要加&
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+.nav {
+    .logo {
+        color: green;
+    }
+
+    &::before {
+        content: '';
+    }
+}
