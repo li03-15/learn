@@ -75,6 +75,32 @@ header {
     margin-bottom: 10px;
 }
 
+/* 进入小屏幕和超小屏幕  浮动起来 */
+@media screen and (max-width:991px) {
+    .nav li {
+        float: left;
+        width: 20%;
+    }
+
+    article {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav li {
+        font-size: 12px;
+    }
+
+    .news li:nth-child(1) {
+        width: 100% !important;
+    }
+
+    .news li {
+        width: 50% !important;
+    }
+}
+
 .news li a {
     position: relative;
     width: 100%;
